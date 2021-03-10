@@ -4,7 +4,7 @@
     "objects": [
         {
             "type": "identity",
-            "id": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "id": "identity--f165428c-7b6a-4d77-89cc-33e66a10c542",
             "name": "QRadar",
             "identity_class": "events"
         },
