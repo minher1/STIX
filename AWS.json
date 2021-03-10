@@ -1,23 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--abe952aa-b943-4a9d-98d4-c6c073b4e8dc",
+    "id": "bundle--50b5dd14-f92b-447e-aa65-94fed0b71f8d",
     "objects": [
         {
             "type": "identity",
-            "id": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "id": "identity--8a8a109d-7035-40f3-b67c-2329f03281b6",
             "name": "QRadar",
             "identity_class": "events"
         },            
             {
-            "id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea1",
+            "id": "observed-data--3873c585-aa56-46c4-9b06-6dc74953ce28,
             "type": "observed-data",
-            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-20T17:19:32.138Z",
-            "modified": "2019-10-20T17:19:32.138Z",
+            "created_by_ref": "identity--8a8a109d-7035-40f3-b67c-2329f03281b6",
+            "created": "2020-09-20T17:19:32.138Z",
+            "modified": "2020-09-20T17:19:32.138Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
-                    "value": "67.229.97.229",
+                    "value": "192.168.0.8",
                     "resolves_to_refs": "2"
                 },
                 "1": {
@@ -36,7 +36,7 @@
                 },
                 "3": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.8",
+                    "value": "67.229.97.229",
                     "resolves_to_refs": "4"
                 },
                 "4": {
@@ -47,29 +47,26 @@
                     "type": "user-account",
                     "user_id": "DanielJones"
                 },
+                "6": {
+                    "type": "file",
+                    "name": "CustomerDataSeptember"
+                },
                 "9": {
                     "type": "domain",
                     "path": "s3.amazonaws.com"
                 },
                 "10": {
                     "type": "artifact",
-                    "payload_bin": "localhost:accountId:911534260404,accessKeyId:ASIA5IO5NAC2OIBXQ4NY,userName:DanielJones,sessionContext:{attributes:{mfaAuthenticated:false,creationDate:2018-09-28T13:40:25Z}},invokedBy:Daniel},eventTime:2018-06-09T21:08:04Z,eventSource:s3.amazonaws.com,eventName:GetObject,awsRegion:us-west-2,sourceIPAddress:67.229.97.229,userAgent:[aws-cli/1.15.57 Python/2.7.14+ Linux/4.15.0-kali2-amd64 botocore/1.10.56],requestParameters:{X-Amz-Date:20180609T210803Z,bucketName:db_backups2032,response-content-disposition:inline,X-Amz-Algorithm:AWS4-HMAC-SHA256,X-Amz-SignedHeaders:host,X-Amz-Expires:300,key:fullDB_dump30102018.dump,responseElements:null,additionalEventData:{x-amz-id-2:aOFvDQjetBtTbrR6zfhmvFJEFS1dOdmSucSEVzd70yIwpLg6pSCalFewtoVchOzcSLKQswDjlAQ=},requestID:4D551A01693DE04D,eventID:73de1499-c6d0-4faa-84b3-f19f607a7a8d,readOnly:true,resources:[{type:AWS::S3::Object,ARN:arn:aws:s3:::mystorage2007/fullDB_dump30102018.dump},{accountId:911534260404,type:AWS::S3::Bucket,ARN:arn:aws:s3:::db_backups2032}],eventType:AwsApiCall,recipientAccountId:911534260404"
+                    "payload_bin": "bG9jYWxob3N0OmFjY291bnRJZDo5MTE1MzQyNjA0MDQsYWNjZXNzS2V5SWQ6QVNJQTVJTzVOQUMyT0lCWFE0TlksdXNlck5hbWU6RGFuaWVsSm9uZXMsc2Vzc2lvbkNvbnRleHQ6e2F0dHJpYnV0ZXM6e21mYUF1dGhlbnRpY2F0ZWQ6ZmFsc2UsY3JlYXRpb25EYXRlOjIwMjAtMDktMjBUMTM6NDA6MjVafX0saW52b2tlZEJ5OkRhbmllbH0sZXZlbnRUaW1lOjIwMjAtMDktMDlUMjE6MDg6MDRaLGV2ZW50U291cmNlOnMzLmFtYXpvbmF3cy5jb20sZXZlbnROYW1lOkdldE9iamVjdCxhd3NSZWdpb246dXMtd2VzdC0yLHNvdXJjZUlQQWRkcmVzczo2Ny4yMjkuOTcuMjI5LHVzZXJBZ2VudDpbYXdzLWNsaS8xLjE1LjU3IFB5dGhvbi8yLjcuMTQrIExpbnV4LzQuMTUuMC1rYWxpMi1hbWQ2NCBib3RvY29yZS8xLjEwLjU2XSxyZXF1ZXN0UGFyYW1ldGVyczp7WC1BbXotRGF0ZToyMDIwMDYwOVQyMTA4MDNaLGJ1Y2tldE5hbWU6ZGJfYmFja3VwczIwMzIscmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbjppbmxpbmUsWC1BbXotQWxnb3JpdGhtOkFXUzQtSE1BQy1TSEEyNTYsWC1BbXotU2lnbmVkSGVhZGVyczpob3N0LFgtQW16LUV4cGlyZXM6MzAwLGtleTpmdWxsREJfZHVtcDIwMDkyMDIwLmR1bXAscmVzcG9uc2VFbGVtZW50czpudWxsLGFkZGl0aW9uYWxFdmVudERhdGE6e3gtYW16LWlkLTI6YU9GdkRRamV0QnRUYnJSNnpmaG12RkpFRlMxZE9kbVN1Y1NFVnpkNzB5SXdwTGc2cFNDYWxGZXd0b1ZjaE96Y1NMS1Fzd0RqbEFRPX0scmVxdWVzdElEOjRENTUxQTAxNjkzREUwNEQsZXZlbnRJRDo3M2RlMTQ5OS1jNmQwLTRmYWEtODRiMy1mMTlmNjA3YTdhOGQscmVhZE9ubHk6dHJ1ZSxyZXNvdXJjZXM6W3t0eXBlOkFXUzo6UzM6Ok9iamVjdCxBUk46YXJuOmF3czpzMzo6Om15c3RvcmFnZTIwMjAvZnVsbERCX2R1bXAyMDA5MjAyMC5kdW1wfSx7YWNjb3VudElkOjkxMTUzNDI2MDQwNCx0eXBlOkFXUzo6UzM6OkJ1Y2tldCxBUk46YXJuOmF3czpzMzo6OmRiX2JhY2t1cHMyMDMyfV0sZXZlbnRUeXBlOkF3c0FwaUNhbGwscmVjaXBpZW50QWNjb3VudElkOjkxMTUzNDI2MDQwNA=="
                 }
             },
             "x_com_ibm_ariel": {
-                "devicetype": 18,
                 "qid_name": "Object Downloaded",
-                "qid": 67500346,
-                "category_name": "AWS CloudTrail Message",
-                "category_id": 7036,
-                "log_source_id": 63,
-                "log_source_name": "AWS CloudTrail",
-                "identity_ip": "0.0.0.0",
-                "utf8_payload": "bG9jYWxob3N0OmFjY291bnRJZDo5MTE1MzQyNjA0MDQsYWNjZXNzS2V5SWQ6QVNJQTVJTzVOQUMyT0lCWFE0TlksdXNlck5hbWU6RGFuaWVsSm9uZXMsc2Vzc2lvbkNvbnRleHQ6e2F0dHJpYnV0ZXM6e21mYUF1dGhlbnRpY2F0ZWQ6ZmFsc2UsY3JlYXRpb25EYXRlOjIwMjAtMDktMjBUMTM6NDA6MjVafX0saW52b2tlZEJ5OkRhbmllbH0sZXZlbnRUaW1lOjIwMjAtMDktMDlUMjE6MDg6MDRaLGV2ZW50U291cmNlOnMzLmFtYXpvbmF3cy5jb20sZXZlbnROYW1lOkdldE9iamVjdCxhd3NSZWdpb246dXMtd2VzdC0yLHNvdXJjZUlQQWRkcmVzczo2Ny4yMjkuOTcuMjI5LHVzZXJBZ2VudDpbYXdzLWNsaS8xLjE1LjU3IFB5dGhvbi8yLjcuMTQrIExpbnV4LzQuMTUuMC1rYWxpMi1hbWQ2NCBib3RvY29yZS8xLjEwLjU2XSxyZXF1ZXN0UGFyYW1ldGVyczp7WC1BbXotRGF0ZToyMDIwMDYwOVQyMTA4MDNaLGJ1Y2tldE5hbWU6ZGJfYmFja3VwczIwMzIscmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbjppbmxpbmUsWC1BbXotQWxnb3JpdGhtOkFXUzQtSE1BQy1TSEEyNTYsWC1BbXotU2lnbmVkSGVhZGVyczpob3N0LFgtQW16LUV4cGlyZXM6MzAwLGtleTpmdWxsREJfZHVtcDIwMDkyMDIwLmR1bXAscmVzcG9uc2VFbGVtZW50czpudWxsLGFkZGl0aW9uYWxFdmVudERhdGE6e3gtYW16LWlkLTI6YU9GdkRRamV0QnRUYnJSNnpmaG12RkpFRlMxZE9kbVN1Y1NFVnpkNzB5SXdwTGc2cFNDYWxGZXd0b1ZjaE96Y1NMS1Fzd0RqbEFRPX0scmVxdWVzdElEOjRENTUxQTAxNjkzREUwNEQsZXZlbnRJRDo3M2RlMTQ5OS1jNmQwLTRmYWEtODRiMy1mMTlmNjA3YTdhOGQscmVhZE9ubHk6dHJ1ZSxyZXNvdXJjZXM6W3t0eXBlOkFXUzo6UzM6Ok9iamVjdCxBUk46YXJuOmF3czpzMzo6Om15c3RvcmFnZTIwMjAvZnVsbERCX2R1bXAyMDA5MjAyMC5kdW1wfSx7YWNjb3VudElkOjkxMTUzNDI2MDQwNCx0eXBlOkFXUzo6UzM6OkJ1Y2tldCxBUk46YXJuOmF3czpzMzo6OmRiX2JhY2t1cHMyMDMyfV0sZXZlbnRUeXBlOkF3c0FwaUNhbGwscmVjaXBpZW50QWNjb3VudElkOjkxMTUzNDI2MDQwNA==",
-                "magnitude": 5
+                "category_name": "AWS CloudWatch Message",
+                "log_source_name": "AWS CloudWatch"
             },
-            "first_observed": "2019-10-20T16:42:58.140Z",
-            "last_observed": "2019-10-20T16:42:58.140Z",
+            "first_observed": "2020-09-20T16:42:58.140Z",
+            "last_observed": "2020-09-20T16:42:58.140Z",
             "number_observed": 1
         }
     ]
