@@ -53,7 +53,7 @@
                 },
                 "9": {
                     "type": "domain",
-                    "path": "Bsackups"
+                    "path": "Backups"
                 },
                 "10": {
                     "type": "artifact",
@@ -62,7 +62,7 @@
             },
             "x_com_ibm_ariel": {
                 "qid_name": "Object Downloaded",
-                "category_name": "MetLideApp Message",
+                "category_name": "MetLifeApp Message",
                 "log_source_name": "MetLifeApp"
             },
             "first_observed": "2021-11-27T03:44:58.140Z",
