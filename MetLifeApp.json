@@ -12,12 +12,12 @@
             "id": "observed-data--12afa14f-5463-4251-83ba-4aac261a5ea1",
             "type": "observed-data",
             "created_by_ref": "identity--1265428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2020-10-16T03:44:32.138Z",
-            "modified": "2020-10-16T03:44:32.138Z",
+            "created": "2021-11-28T03:44:32.138Z",
+            "modified": "2021-11-28T03:44:32.138Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
-                    "value": "10.10.9.56",
+                    "value": "172.20.13.104",
                     "resolves_to_refs": "2"
                 },
                 "1": {
@@ -36,7 +36,7 @@
                 },
                 "3": {
                     "type": "ipv4-addr",
-                    "value": "10.10.9.56",
+                    "value": "172.20.13.104",
                     "resolves_to_refs": "4"
                 },
                 "4": {
@@ -78,7 +78,7 @@
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
-                    "value": "10.10.9.56",
+                    "value": "172.20.13.104",
                     "resolves_to_refs": "2"
                 },
                 "1": {
@@ -97,7 +97,7 @@
                 },
                 "3": {
                     "type": "ipv4-addr",
-                    "value": "10.10.9.56",
+                    "value": "172.20.13.104",
                     "resolves_to_refs": "4"
                 },
                 "4": {
