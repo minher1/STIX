@@ -27,7 +27,7 @@
                 },
                 "1": {
                     "binary_ref": "0",
-                    "command_line": "C:\\Windows\\PSECESVC.exe",
+                    "command_line": "C:\\Windows\\PSEXESVC.exe",
                     "created": "2022-02-14T16:59:16.578Z",
                     "creator_user_ref": "8",
                     "name": "svctest.exe",
