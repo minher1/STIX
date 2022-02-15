@@ -23,14 +23,14 @@
                         "MD5": "8a0a29438052faed8a2532da50455756"
                     },
                     "name": "powershell.exe",
-                    "type": "file"
+                    "type": "process"
                 },
                 "1": {
                     "binary_ref": "0",
                     "command_line": "C:\\Windows\\PSEXESVC.exe",
                     "created": "2022-02-14T16:59:16.578Z",
                     "creator_user_ref": "8",
-                    "name": "svctest.exe",
+                    "name": "PSEXESVC.exe",
                     "opened_connection_refs": [
                         "6"
                     ],
