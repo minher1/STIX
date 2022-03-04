@@ -1,116 +1,113 @@
 {
-  "type": "bundle",
-  "id": "bundle--782bb964-89e6-49c6-acca-4e5ce066840a",
-  "created": "2022-02-25T19:04:22.339Z",
-  "objects": {
-    "0": {
-      "type": "x-oca-event",
-      "agent": "Apache @ apache.httpserver.test",
-      "action": "HTTP 200 - OK",
-      "created": "2021-12-12T05:58:32.000Z",
-      "outcome": "Request Successful",
-      "category": [
-        "Application"
-      ],
-      "host_ref": "5",
-      "provider": "Apache HTTP Server",
-      "network_ref": "4",
-      "original_ref": "10"
-    },
-    "1": {
-      "qid": 4500003,
-      "type": "x-qradar",
-      "direction": "L2R",
-      "domain_id": 0,
-      "relevance": 10,
-      "category_id": 18466,
-      "credibility": 10,
-      "device_type": 10,
-      "domain_name": "Default Domain",
-      "has_offense": "true",
-      "log_source_id": 3462,
-      "cre_event_list": [
-        "100493",
-        "100788",
-        "100437",
-        "100226",
-        "100225",
-        "100221",
-        "100216",
-        "100720",
-        "100719"
-      ],
-      "high_level_category_id": 18000
-    },
-    "2": {
-      "end": "2022-02-25T16:55:54.563Z",
-      "type": "x-ibm-finding",
-      "start": "2022-02-25T16:55:54.563Z",
-      "severity": 1,
-      "magnitude": 6,
-      "dst_ip_ref": "7",
-      "rule_names": [
-        "BB:UBA : Common Log Source Filters",
-        "BB:DeviceDefinition: Web Servers",
-        "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
-        "Source Asset Weight is High",
-        "Source Asset Exists",
-        "Destination Asset Weight is Low",
-        "Context is Local to Remote",
-        "Log4Shell Base Pattern",
-        "Log4Shell Evasion Pattern"
-      ],
-      "src_ip_ref": "3",
-      "event_count": 1,
-      "finding_type": "event",
-      "dst_geolocation": "other",
-      "src_geolocation": "other"
-    },
-    "3": {
-      "type": "ipv4-addr",
-      "value": "192.168.56.101",
-      "resolves_to_refs": [
-        "6"
-      ]
-    },
-    "4": {
-      "type": "network-traffic",
-      "dst_ref": "7",
-      "src_ref": "3",
-      "dst_port": 0,
-      "src_port": 0,
-      "protocols": [
-        "tcp"
-      ]
-    },
-    "6": {
-      "type": "mac-addr",
-      "value": "00:00:00:00:00:00"
-    },
-    "7": {
-      "type": "ipv4-addr",
-      "value": "45.155.202.233",
-      "resolves_to_refs": [
-        "8"
-      ]
-    },
-    "8": {
-      "type": "mac-addr",
-      "value": "00:00:00:00:00:00"
-    },
-    "9": {
-      "type": "ipv4-addr",
-      "value": "0.0.0.0"
-    },
-    "10": {
-      "type": "artifact",
-      "mime_type": "text/plain",
-      "payload_bin": "T2N0IDIxIDEwOjA1OjM1IGFwYWNoZS5odHRwc2VydmVyLnRlc3QgaHR0cGQ6IDE5Mi4xNjguNTYuMTAxIDQ1LjE1NS4yMDIuMjMzIC0gLSBbMTIvRGVjLzIwMjE6MDU6NTg6MzIgKzAwMDBdICJHRVQgMTkyLjE2OC41Ni4xMDE6ODAvIEhUVFAvMS4xIiAyMDAgMzQyNCAiJHtqbmRpOiR7bG93ZXI6bH0ke2xvd2VyOmR9JHtsb3dlcjphfSR7bG93ZXI6cH06Ly80NS4xNTUuMjA1LjIzMzoxMjM0NC9CYXNpYy9Db21tYW5kL0Jhc2U2NC9LR04xY213Z0xYTWdORFV1TVRVMUxqSXdOUzR5TXpNNk5UZzNOQzh4TmpJdU1DNHlNamd1TWpVek9qZ3dmSHgzWjJWMElDMXhJQzFQTFNBME5TNHhOVFV1TWpBMUxqSXpNem8xT0RjMEx6RTJNaTR3TGpJeU9DNHlOVE02T0RBcGZHSmhjMmc9fSIgIiR7JHs6Oi1qfSR7Ojotbn0kezo6LWR9JHs6Oi1pfTokezo6LWx9JHs6Oi1kfSR7OjotYX0kezo6LXB9Oi8vNDUuMTU1LjIwNS4yMzM6MTIzNDQvQmFzaWMvQ29tbWFuZC9CYXNlNjQvS0dOMWNtd2dMWE1nTkRVdU1UVTFMakl3TlM0eU16TTZOVGczTkM4eE5qSXVNQzR5TWpndU1qVXpPamd3Zkh4M1oyVjBJQzF4SUMxUExTQTBOUzR4TlRVdU1qQTFMakl6IiAiMTkyLjE2OC41Ni4xMDE6ODAi"
-    }
-  },
-  "modified": "2022-02-25T19:04:22.339Z",
-  "last_observed": "2022-02-25T16:55:54.563Z",
-  "created_by_ref": "identity--5dedd615-1be4-44d5-a38d-2842c9029c8c",
-  "first_observed": "2022-02-25T16:55:54.563Z",
-  "number_observed": 1
+	"type": "bundle",
+	"id": "bundle--782bb964-89e6-49c6-acca-4e5ce066840a",
+	"objects": {
+		"0": {
+			"type": "x-oca-event",
+			"agent": "Apache @ apache.httpserver.test",
+			"action": "HTTP 200 - OK",
+			"created": "2021-12-12T05:58:32.000Z",
+			"outcome": "Request Successful",
+			"category": [
+				"Application"
+			],
+			"host_ref": "5",
+			"provider": "Apache HTTP Server",
+			"network_ref": "4",
+			"original_ref": "10"
+		},
+		"1": {
+			"qid": 4500003,
+			"type": "x-qradar",
+			"direction": "L2R",
+			"domain_id": 0,
+			"relevance": 10,
+			"category_id": 18466,
+			"credibility": 10,
+			"device_type": 10,
+			"domain_name": "Default Domain",
+			"has_offense": "true",
+			"log_source_id": 3462,
+			"cre_event_list": [
+				"100493",
+				"100788",
+				"100437",
+				"100226",
+				"100225",
+				"100221",
+				"100216",
+				"100720",
+				"100719"
+			],
+			"high_level_category_id": 18000
+		},
+		"2": {
+			"end": "2022-02-25T16:55:54.563Z",
+			"type": "x-ibm-finding",
+			"start": "2022-02-25T16:55:54.563Z",
+			"severity": 1,
+			"magnitude": 6,
+			"dst_ip_ref": "7",
+			"rule_names": [
+				"BB:UBA : Common Log Source Filters",
+				"BB:DeviceDefinition: Web Servers",
+				"ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+				"Source Asset Weight is High",
+				"Source Asset Exists",
+				"Destination Asset Weight is Low",
+				"Context is Local to Remote",
+				"Log4Shell Base Pattern",
+				"Log4Shell Evasion Pattern"
+			],
+			"src_ip_ref": "3",
+			"event_count": 1,
+			"finding_type": "event",
+			"dst_geolocation": "other",
+			"src_geolocation": "other"
+		},
+		"3": {
+			"type": "ipv4-addr",
+			"value": "192.168.56.101",
+			"resolves_to_refs": [
+				"6"
+			]
+		},
+		"4": {
+			"type": "network-traffic",
+			"dst_ref": "7",
+			"src_ref": "3",
+			"dst_port": 0,
+			"src_port": 0,
+			"protocols": [
+				"tcp"
+			]
+		},
+		"6": {
+			"type": "mac-addr",
+			"value": "00:00:00:00:00:00"
+		},
+		"7": {
+			"type": "ipv4-addr",
+			"value": "45.155.202.233",
+			"resolves_to_refs": [
+				"8"
+			]
+		},
+		"8": {
+			"type": "mac-addr",
+			"value": "00:00:00:00:00:00"
+		},
+		"9": {
+			"type": "ipv4-addr",
+			"value": "0.0.0.0"
+		},
+		"10": {
+			"type": "artifact",
+			"mime_type": "text/plain",
+			"payload_bin": "T2N0IDIxIDEwOjA1OjM1IGFwYWNoZS5odHRwc2VydmVyLnRlc3QgaHR0cGQ6IDE5Mi4xNjguNTYuMTAxIDQ1LjE1NS4yMDIuMjMzIC0gLSBbMTIvRGVjLzIwMjE6MDU6NTg6MzIgKzAwMDBdICJHRVQgMTkyLjE2OC41Ni4xMDE6ODAvIEhUVFAvMS4xIiAyMDAgMzQyNCAiJHtqbmRpOiR7bG93ZXI6bH0ke2xvd2VyOmR9JHtsb3dlcjphfSR7bG93ZXI6cH06Ly80NS4xNTUuMjA1LjIzMzoxMjM0NC9CYXNpYy9Db21tYW5kL0Jhc2U2NC9LR04xY213Z0xYTWdORFV1TVRVMUxqSXdOUzR5TXpNNk5UZzNOQzh4TmpJdU1DNHlNamd1TWpVek9qZ3dmSHgzWjJWMElDMXhJQzFQTFNBME5TNHhOVFV1TWpBMUxqSXpNem8xT0RjMEx6RTJNaTR3TGpJeU9DNHlOVE02T0RBcGZHSmhjMmc9fSIgIiR7JHs6Oi1qfSR7Ojotbn0kezo6LWR9JHs6Oi1pfTokezo6LWx9JHs6Oi1kfSR7OjotYX0kezo6LXB9Oi8vNDUuMTU1LjIwNS4yMzM6MTIzNDQvQmFzaWMvQ29tbWFuZC9CYXNlNjQvS0dOMWNtd2dMWE1nTkRVdU1UVTFMakl3TlM0eU16TTZOVGczTkM4eE5qSXVNQzR5TWpndU1qVXpPamd3Zkh4M1oyVjBJQzF4SUMxUExTQTBOUzR4TlRVdU1qQTFMakl6IiAiMTkyLjE2OC41Ni4xMDE6ODAi"
+		}
+	},
+	"first_observed": "2022-02-25T16:55:54.563Z",
+	"last_observed": "2022-02-25T16:55:54.563Z",
+	"number_observed": 1
 }
