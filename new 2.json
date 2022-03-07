@@ -20,7 +20,7 @@
 				"0": {
 					"type": "x-oca-event",
 					"id": "x-oca-event--2ce2a576-9e2a-11ec-b909-0242ac120002",
-					"agent": "jndi:nis",
+					"agent": "Apache @ apache.httpserver.test",
 					"action": "HTTP 200 - OK",
 					"created": "2022-02-24T05:58:32.000Z",
 					"outcome": "Request Successful",
