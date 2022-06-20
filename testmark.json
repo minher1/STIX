@@ -48,7 +48,7 @@
                     "value": "comreimastercard.com"
                 },
 		"4": {
-                    "type": "URL",
+                    "type": "url",
                     "value": "comreimastercard.com"
                 }
             },
