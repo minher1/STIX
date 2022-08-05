@@ -1,0 +1,145 @@
+{
+  "type": "bundle",
+  "id": "bundle--cc9a141b-bb6f-418c-9538-f398f61ec2ce",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "identity",
+      "id": "identity--88ef785a-207f-4da9-9db5-3da1195010d2",
+      "created": "2022-05-27T21:09:34.906Z",
+      "modified": "2022-05-27T21:09:34.906Z",
+      "name": "splunk",
+      "identity_class": "system"
+    },
+    {
+      "type": "observed-data",
+      "id": "observed-data--71b1f8ff-5e35-4d38-9899-3af4b9f55b1e",
+      "created": "2022-05-27T21:09:34.908Z",
+      "modified": "2022-05-27T21:09:34.908Z",
+      "first_observed": "2022-05-27T16:10:49.424977Z",
+      "last_observed": "2022-05-27T16:10:49.424977Z",
+      "number_observed": 8,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "10.1.136.27"
+        },
+        "1": {
+          "type": "url",
+          "value": "https://W3SVC241260617.telco.net/"
+        },
+        "2": {
+          "type": "domain-name",
+          "value": "W3SVC241260617.telco.net"
+        },
+        "3": {
+          "type": "user-account",
+          "user_id": "iam_test_user_2"
+        },
+        "4": {
+          "type": "x-deviceid",
+          "deviceid": "856089933444546560"
+        },
+        "5": {
+          "type": "ipv4-addr",
+          "value": "172.17.6.87"
+        },
+        "6": {
+          "type": "network-traffic",
+          "src_ref": "0",
+          "dst_ref": "5",
+          "src_port": 55906,
+          "dst_port": 443,
+          "protocols": [
+            "https"
+          ]
+        },
+        "7": {
+          "type": "x-oca-event",
+          "action": "ACCEPT",
+          "host_ref": [
+            "8"
+          ],
+          "ip_refs": [
+            "0",
+            "3"
+          ],
+          "network_ref": "4"
+        },
+        "8": {
+          "type": "x-oca-asset",
+          "hostname": "cdc_ho_srv4.vzw.local",
+          "ip_refs": [
+            "0",
+            "3"
+          ]
+        }
+      }
+    },
+    {
+      "type": "observed-data",
+      "id": "observed-data--c6cd1a4c-0b6b-4cb8-b5e1-154ff33db941",
+      "created": "2022-05-27T21:09:34.912Z",
+      "modified": "2022-05-27T21:09:34.912Z",
+      "first_observed": "2022-05-27T16:11:29.425046Z",
+      "last_observed": "2022-05-27T16:11:29.425046Z",
+      "number_observed": 8,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "10.1.136.27"
+        },
+        "1": {
+          "type": "url",
+          "value": "https://W3SVC241260617.telco.net/"
+        },
+        "2": {
+          "type": "domain-name",
+          "value": "W3SVC241260617.telco.net"
+        },
+        "3": {
+          "type": "user-account",
+          "user_id": "iam_test_user_3"
+        },
+        "4": {
+          "type": "x-deviceid",
+          "deviceid": "856089933444546560"
+        },
+        "5": {
+          "type": "ipv4-addr",
+          "value": "172.17.6.87"
+        },
+        "6": {
+          "type": "network-traffic",
+          "src_ref": "0",
+          "dst_ref": "5",
+          "src_port": 52548,
+          "dst_port": 443,
+          "protocols": [
+            "https"
+          ]
+        },
+        "7": {
+          "type": "x-oca-event",
+          "action": "ACCEPT",
+          "host_ref": [
+            "8"
+          ],
+          "ip_refs": [
+            "0",
+            "3"
+          ],
+          "network_ref": "4"
+        },
+        "8": {
+          "type": "x-oca-asset",
+          "hostname": "cdc_ho_srv4.vzw.local",
+          "ip_refs": [
+            "0",
+            "3"
+          ]
+        }
+      }
+    }
+  ]
+}
